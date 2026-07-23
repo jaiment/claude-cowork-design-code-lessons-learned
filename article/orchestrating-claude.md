@@ -16,7 +16,7 @@ I ran three separate Claude agents, each with a fixed role:
 
 * **Cowork: the brain.** This was my business decision partner and the only agent I spoke to in Spanish. Cowork made no coding nor design. It made the Google Search Console and Google Analytics historical analysis, SEO optimization, drafted the prompts I fed to the other two agents, reviewed their output, and owned the source-of-truth documents ← BTW, I was the one suggesting how to split & organize documentation and stay on top of every important documentation aspect.
 * **Claude Design: the design expert.** It owned the design system: project, templates and components. It worked with the prompts created with Cowork and once done, I exported the project ZIP so Cowork could audit the changes. ← BTW, I did a lot of manual/visual review using a localhost browser and caught a LOT of stuff.
-* **Claude Code: the backend developer.** It executed the hand-off from the Design ZIP, did the wiring and porting copy-out texts to the templates. It transformed the design bundle faithfully into a real Next.js app, wired routing, i18n, metadata and redirects, and ran the builds. English only. I had little trouble working with Code, for me, this was the most precise agent.
+* **Claude Code: the developer.** It executed the hand-off from the Design ZIP, did the wiring and porting copy-out texts to the templates. It transformed the design bundle faithfully into a real Next.js app, wired routing, i18n, metadata and redirects, and ran the builds. English only. I had little trouble working with Code, for me, this was the most precise agent.
 
 The whole thing looked like this:
 
@@ -36,7 +36,7 @@ The whole thing looked like this:
           ▼                                    ▼
 ┌────────────────────────┐         ┌────────────────────────┐
 │  CLAUDE DESIGN         │         │  CLAUDE CODE           │
-│  Role: UI/UX lead      │         │  Role: backend dev     │
+│  Role: UI/UX lead      │         │  Role: developer       │
 │                        │         │                        │
 │  - Tokens, prototypes, │         │  - Reads the repo +    │
 │    UI kits, templates  │         │    the handoff bundle  │
@@ -59,7 +59,7 @@ One of the first and most important moments happened when I handed Cowork our br
 
 Cowork documented them into a proper foundation, extracting the palette, the typographic intent, the asset inventory and the usage rules, and that documentation became the base of the design system that Claude Design built on top of.
 
-That's when a bigger realization landed: the entire visual layer had to be built in Design, and Code should ONLY be used for backend wiring and implementation.
+That's when a bigger realization landed: the entire visual layer had to be built in Design, and Code should ONLY be used for wiring and implementation.
 
 ## How the coordination actually worked
 
@@ -154,7 +154,7 @@ Straight from the official docs, the single most useful thing I handed to Cowork
 
 If I can highlight one single thing from the story, it's this one: I was able to get this project done in under a month **not because** the three agents collaborated remarkably or because they understood the scope in a superb way ← the agents are FAR from this.
 
-I'm **no** expert in website design, or backend dev, or SEO, or DevOps. I can't even tell at a glance if an HTML document is well formatted. What I do have is the fundamentals and a clear picture of WHY these pieces of the puzzle exist and HOW they should collaborate. PLUS I have a clear understanding of the business goals, what problems we solve for our clients and what image we want to project to potential customers.
+I'm **no** expert in website design, or coding, or SEO, or DevOps. I can't even tell at a glance if an HTML document is well formatted. What I do have is the fundamentals and a clear picture of WHY these pieces of the puzzle exist and HOW they should collaborate. PLUS I have a clear understanding of the business goals, what problems we solve for our clients and what image we want to project to potential customers.
 
 Forget about specific names: Cowork, Opus, Sonnet, Nova, Kimi ← all these will pass and new ones will come. What matters is to solve real problems and get shit done with higher quality every day ... isn't it 🤷‍♂️
 
