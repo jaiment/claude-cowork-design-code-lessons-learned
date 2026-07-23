@@ -12,7 +12,7 @@ This repo shares the redacted, reusable versions of the actual working docs and 
 
 The full write-up: how the coordination actually worked, the most dangerous pass (Design → Code), where the orchestrator fell short (it once suggested an already end-of-life runtime with full confidence), and why the scarce skill turned out to be human.
 
-→ **[Read the article](article/orchestrating-claude.md)** _(also on Medium — link coming soon)_
+→ **[Read the article](article/orchestrating-claude.md)** _(also on [Medium](https://medium.com/@jaiment/50-technical-50-human-orchestrating-claude-design-cowork-code-dedf46c30187))_
 
 ## What's inside
 
